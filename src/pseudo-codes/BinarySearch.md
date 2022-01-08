@@ -2,9 +2,9 @@
 
 ```py
 Input:
-  array = [1, 3, 4, 6, 8, 9, 20, 34]
-  target = 8; 10; 20; 30
-Output: 4, 'Not found', 6, 'Not found'
+  array = [1, 2, 4, 5, 6]
+  target = 2; 3; 5
+Output: 1, 'Not found', 3
 ```
 
 <h2 align="center">Algorithm</h2>
