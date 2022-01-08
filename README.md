@@ -3,40 +3,40 @@
 <p align="center">
   <img
     alt="GitHub top language"
-    src="https://img.shields.io/github/languages/top/kauefraga/BinarySearch-and-BigO.svg"
+    src="https://img.shields.io/github/languages/top/kauefraga/BinarySearch-and-Quicksort.svg"
   />
   <img
     alt="Repository size"
-    src="https://img.shields.io/github/repo-size/kauefraga/BinarySearch-and-BigO.svg"
+    src="https://img.shields.io/github/repo-size/kauefraga/BinarySearch-and-Quicksort.svg"
   />
-  <a href="https://github.com/kauefraga/BinarySearch-and-BigO/commits/main">
+  <a href="https://github.com/kauefraga/BinarySearch-and-Quicksort/commits/main">
     <img
       alt="GitHub last commit"
-      src="https://img.shields.io/github/last-commit/kauefraga/BinarySearch-and-BigO.svg"
+      src="https://img.shields.io/github/last-commit/kauefraga/BinarySearch-and-Quicksort.svg"
     />
   </a>
   <img
     alt="GitHub LICENSE"
-    src="https://img.shields.io/github/license/kauefraga/BinarySearch-and-BigO.svg"
+    src="https://img.shields.io/github/license/kauefraga/BinarySearch-and-Quicksort.svg"
   />
 </p>
 
 <h4 align="center">This is a implementation of Binary Search Algorithm in JS/TS + Time Complexity Analysis</h4>
 
-## 📝 More about
-- [**Binary Search Algorithm**](https://youtu.be/BFcf5vYDoj0): (What is it? How?)
+## 📝 Table of contents
+- [**Binary Search Algorithm**](https://en.wikipedia.org/wiki/Binary_search_algorithm): (What is it? How?)
   - This algorithm provides a way to search for item x in ordered array (de)crescent
   - Needed
     - Input: array, target
-    - Output: target array index (like array[index])
-  - Coming soon...
+    - Output: index of target (like array[index])
+  - [Pseudo-code](https://github.com/kauefraga/BinarySearch-and-Quicksort/blob/main/src/pseudo-codes/BinarySearch.md)
 - [**Big O Notation**](https://www.bigocheatsheet.com):
   - Coming soon...
 
 ## ⬇️ How to download
 ```bash
-git clone https://github.com/kauefraga/BinarySearch-and-BigO.git BinarySearch
-cd BinarySearch
+git clone https://github.com/kauefraga/BinarySearch-and-Quicksort.git Algorithms
+cd Algorithms
 yarn || npm install
 yarn start || npm start
 ```
@@ -49,7 +49,7 @@ yarn start || npm start
 
 ## 📝 License
 
-See the [LICENSE](https://github.com/kauefraga/BinarySearch-and-BigO/blob/main/LICENSE) for more information.
+See the [LICENSE](https://github.com/kauefraga/BinarySearch-and-Quicksort/blob/main/LICENSE) for more information.
 
 ---
 <div align="center" display="flex">
