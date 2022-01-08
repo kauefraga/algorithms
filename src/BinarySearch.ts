@@ -1,26 +1,26 @@
-export default function BinarySearch(array: Array<any>, target: number) {
+export default function BinarySearch(array: any[], target: number) {
   let left = 0
   let right = array.length - 1
-  let middlePosition: number = Math.floor(left + (right - left) / 2)
+  let middleIndex = Math.floor(left + (right - left) / 2)
 
-  while (array.length > middlePosition) {
-    let middleElement = array[middlePosition]
+  while (array.length > middleIndex) {
+    let middleNumber = array[middleIndex]
 
-    if (middleElement === target) return middlePosition
+    if (middleNumber === target) return middleIndex
 
-    if (middleElement > target) {
-      right = middlePosition - 1
-      BinarySearch(array[middlePosition], target)
+    if (middleNumber > target) {
+      right = middleIndex - 1
+      BinarySearch(array[middleIndex], target)
     }
 
-    if (middleElement < target) {
-      left = middlePosition + 1
-      BinarySearch(array[middlePosition], target)
+    if (middleNumber < target) {
+      left = middleIndex + 1
+      BinarySearch(array[middleIndex], target)
     }
 
     if (left > right) throw new Error('[error] Target not found')
 
-    middlePosition = Math.floor(left + (right - left) / 2)
+    middleIndex = Math.floor(left + (right - left) / 2)
   }
   return -1
 }
