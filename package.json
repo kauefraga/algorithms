@@ -1,9 +1,10 @@
 {
-  "name": "binary-search",
+  "name": "binary_search-and-quicksort",
   "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {
     "start": "tsc && node dist/index.js",
+    "start:py": "python src/python/index.py",
     "dev": "tsnd --respawn --transpile-only src/index.ts"
   },
   "devDependencies": {
