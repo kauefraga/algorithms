@@ -1,4 +1,10 @@
-<h1 align="center">Binary Search and Big O Notation</h1>
+<h1 align="center">
+  Binary Search, Quicksort and Big O Notation
+  <a href="https://github.com/kauefraga/BinarySearch-and-Quicksort/tree/main/pt-br"
+  >
+    (pt-br)
+  </a>
+</h1>
 
 <p align="center">
   <img
@@ -21,7 +27,7 @@
   />
 </p>
 
-<h4 align="center">This is a implementation of Binary Search Algorithm in JS/TS + Time Complexity Analysis</h4>
+<h4 align="center">This is a implementation of Binary Search Algorithm in JS/TS and Python + Quicksort + Time/Space Complexity Analysis</h4>
 
 ## 📝 Table of contents
 - [**Binary Search Algorithm**](https://en.wikipedia.org/wiki/Binary_search_algorithm): (What is it? How?)
@@ -29,22 +35,24 @@
   - Needed
     - Input: array, target
     - Output: index of target (like array[index])
-  - [Pseudo-code](https://github.com/kauefraga/BinarySearch-and-Quicksort/blob/main/src/pseudo-codes/BinarySearch.md)
+  - [Pseudo-code](s)
 - [**Big O Notation**](https://www.bigocheatsheet.com):
   - Coming soon...
 
-## ⬇️ How to download
+## ⬇️ How to download (python version need [python](https://python.org/downloads/))
 ```bash
 git clone https://github.com/kauefraga/BinarySearch-and-Quicksort.git Algorithms
 cd Algorithms
 yarn || npm install
-yarn start || npm start
+yarn start || npm start # nodejs version
+yarn start:py || npm start:py # python version
 ```
 
 ## 💻 Technologies
 
 - Outputs with [Chalk](https://npmjs.com/package/chalk)
 - Coding with [Ts-Node-Dev](https://npmjs.com/package/ts-node-dev)
+- [Python](https://python.org)
 - [Typescript](https://www.typescriptlang.org)
 
 ## 📝 License
