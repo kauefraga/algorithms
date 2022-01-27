@@ -1,12 +1,5 @@
 <h1 align="center">Binary Search Algorithm</h1>
 
-```py
-Input:
-  array = [1, 2, 4, 5, 6]
-  target = 2; 3; 5
-Output: 1, 'Not found', 3
-```
-
 <h2 align="center">Algorithm</h2>
 
 ```
