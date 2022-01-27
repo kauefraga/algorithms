@@ -1,6 +1,6 @@
 {
   "name": "binary_search-and-quicksort",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "main": "src/index.ts",
   "scripts": {
     "start": "tsc && node dist/index.js",
