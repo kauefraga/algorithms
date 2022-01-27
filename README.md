@@ -1,6 +1,7 @@
 <h1 align="center">
   Binary Search, Quicksort and Big O Notation
-  <a href="https://github.com/kauefraga/BinarySearch-and-Quicksort/tree/main/pt-br"
+  <a
+    href="https://github.com/kauefraga/BinarySearch-and-Quicksort/tree/main/pt-br"
   >
     (pt-br)
   </a>
@@ -34,17 +35,17 @@
   - This algorithm provides a way to search for item x in ordered array (de)crescent
   - Needed
     - Input: array, target
-    - Output: index of target (like array[index])
-  - [Pseudo-code](s)
+    - Expected output: index of target (like array[index])
+  - [Pseudo-code](https://github.com/kauefraga/BinarySearch-and-Quicksort/blob/main/src/pseudo-codes/BinarySearch.md)
 - [**Big O Notation**](https://www.bigocheatsheet.com):
   - Coming soon...
 
-## ⬇️ How to download (python version need [python](https://python.org/downloads/))
+## ⬇️ How to download (needs [python](https://python.org/downloads/))
 ```bash
 git clone https://github.com/kauefraga/BinarySearch-and-Quicksort.git Algorithms
 cd Algorithms
-yarn || npm install
-yarn start || npm start # nodejs version
+yarn          || npm install
+yarn start    || npm start # nodejs version
 yarn start:py || npm start:py # python version
 ```
 
@@ -61,6 +62,6 @@ See the [LICENSE](https://github.com/kauefraga/BinarySearch-and-Quicksort/blob/m
 
 ---
 <div align="center" display="flex">
-  <img alt="Built with love" src="http://ForTheBadge.com/images/badges/built-with-love.svg">
-  <img alt="Made with typescript" src="http://ForTheBadge.com/images/badges/made-with-typescript.svg">
+  <img alt="Built with love" src="https://forthebadge.com/images/badges/built-with-love.svg">
+  <img alt="Powered by coffee" src="https://forthebadge.com/images/badges/powered-by-coffee.svg">
 </div>
