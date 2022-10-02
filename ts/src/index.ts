@@ -1,7 +1,7 @@
 import chalk from 'chalk'
 
-import Quicksort from './Quicksort'
-import BinarySearch from './BinarySearch'
+import Quicksort from './quicksort'
+import BinarySearch from './binary-search'
 
 const array = [1, 3, 4, 6, 8, 9, 20, 34, 41, 54, 67, 212, 434, 501, 502, 1002, 3403, 5000, 5001, 5002, 5003, 5004]
 
