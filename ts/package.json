@@ -1,0 +1,17 @@
+{
+  "name": "algorithms",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node .",
+    "dev": "tsnd --respawn --transpile-only src/index.ts"
+  },
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "@types/node": "^18.7.18",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "*"
+  },
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
+  "license": "MIT"
+}
