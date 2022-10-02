@@ -36,14 +36,27 @@
 - [**Big O Notation**](https://www.bigocheatsheet.com):
   - Coming soon...
 
-## ⬇️ How to download
+## ⬇️ How to download and run it
 ```bash
 git clone https://github.com/kauefraga/algorithms.git
 cd algorithms
+
+# Run cpp version
+g++ "cpp/main.cpp" -o "cpp/main" -std=c++2a
+./cpp/main
+
+# Python version
+python python/main.py
+
+# Nodejs/Typescript version
+cd ts
+pnpm i # feel free to use any other package manager
+pnpm start
+cd ..
 ```
 
 ## 💻 Languages
-
+- [C++](https://en.wikipedia.org/wiki/C++)
 - [Python](https://python.org)
 - [Typescript](https://www.typescriptlang.org)
 
